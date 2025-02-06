@@ -64,13 +64,13 @@
 }
 
 a {
-  color: #97413a; /* #314e64; */ /* #1772d0; */
+  color: #1772d0;
   text-decoration: none;
 }
 
 a:focus,
 a:hover {
-  color: #313164; /* #f09228; */
+  color: #f09228;
   text-decoration: none;
 }
 
@@ -81,36 +81,30 @@ tr,
 p,
 a {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 16px
+  font-size: 14px;
 }
 
 strong {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 17px;
-  font-weight: 600
+  font-size: 14px;
 }
 
-b {
-  font-weight: 600
-}
-
-heading {
+h2 {
+  margin: 0;
+  font-weight: normal;
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 25px;
-  /*color: #313164;*/
-  text-decoration: underline;
-  text-decoration-style: solid;
-  -webkit-text-decoration-color: #97413a;
-  text-decoration-color: #97413a; /* #ac715b; */
+  font-size: 22px;
 }
 
-papertitle {
+.papertitle {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 18px;
-  font-weight: 500
+  font-size: 14px;
+  font-weight: 700;
 }
 
-name {
+.name {
+  padding-top: 20px;
+  margin: 0;
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 32px;
 }
@@ -137,17 +131,12 @@ name {
 }
 
 span.highlight {
-  background-color: #fbe8ab; /* #ffffd0; */
+  background-color: #ffffd0;
 }
 
-span.badge {
-  font-size: 13px;
-  background-color: #313164;
-  color: #ffffff;
-  font-weight: 600;
-  padding-right: .4em;
-  padding-left: .4em;
-  padding-top: .05em;
-  padding-bottom: .05em;
-  border-radius: 10rem;
+.colored-box {
+    color: black;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 10px;
 }
